@@ -15,9 +15,5 @@ const onClickAdd = () => {
       :is-favorite="true"
       :onClickAdd="onClickAdd"
     />
-    <Card imageUrl="/sneakers/sneakers-2.jpg" />
-    <Card imageUrl="/sneakers/sneakers-3.jpg" />
-    <Card imageUrl="/sneakers/sneakers-4.jpg" />
-    <Card imageUrl="/sneakers/sneakers-5.jpg" />
   </div>
 </template>
