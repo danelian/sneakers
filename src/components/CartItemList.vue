@@ -3,14 +3,10 @@ import { inject } from 'vue'
 import CartItem from './CartItem.vue'
 
 const { cart, removeFromCart } = inject('cart')
-
-const onClickRemove = () => {
-  addToCart(item);
-}
 </script>
 
 <template>
-  <div class="flex flex-col gap-3">
+  <div class="flex flex-col gap-3" v-auto-animate>
     <CartItem 
       v-for="item in cart"
       :key="item.id"
